@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="540">
+      <stop stop-color="#18181b"/>
+      <stop offset="1" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="480" y1="80" x2="480" y2="460">
+      <stop stop-color="#7c3aed" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)" rx="12"/>
+  <rect x="40" y="40" width="880" height="460" rx="8" stroke="#27272a" stroke-width="1" fill="#0c0c12"/>
+  <rect x="40" y="40" width="880" height="36" rx="8" fill="#18181b"/>
+  <circle cx="60" cy="58" r="6" fill="#ef4444" opacity="0.85"/>
+  <circle cx="82" cy="58" r="6" fill="#eab308" opacity="0.85"/>
+  <circle cx="104" cy="58" r="6" fill="#22c55e" opacity="0.85"/>
+  <rect x="140" y="50" width="320" height="18" rx="4" fill="#27272a"/>
+  <text x="160" y="63" fill="#71717a" font-family="system-ui,sans-serif" font-size="11">privacy.example.com</text>
+  <rect x="60" y="100" width="400" height="10" rx="2" fill="#3f3f46" opacity="0.6"/>
+  <rect x="60" y="120" width="360" height="8" rx="2" fill="#52525b" opacity="0.4"/>
+  <rect x="60" y="136" width="380" height="8" rx="2" fill="#52525b" opacity="0.4"/>
+  <ellipse cx="680" cy="280" rx="220" ry="140" fill="url(#glow)"/>
+  <rect x="480" y="120" width="400" height="320" rx="12" stroke="#7c3aed" stroke-opacity="0.4" stroke-width="1" fill="rgba(30,27,75,0.35)"/>
+  <rect x="520" y="160" width="120" height="40" rx="8" stroke="#8b5cf6" fill="#312e81"/>
+  <text x="580" y="185" text-anchor="middle" fill="#e9d5ff" font-family="system-ui,sans-serif" font-size="12">Summary</text>
+  <path d="M580 200 L580 230 M520 230 L640 230" stroke="#6366f1" stroke-width="2"/>
+  <rect x="500" y="240" width="90" height="36" rx="6" stroke="#57534e" fill="#1c1917"/>
+  <rect x="610" y="240" width="90" height="36" rx="6" stroke="#7c3aed" fill="#1e1b4b"/>
+  <rect x="720" y="240" width="90" height="36" rx="6" stroke="#57534e" fill="#1c1917"/>
+  <text x="545" y="262" text-anchor="middle" fill="#a8a29e" font-size="10">Node A</text>
+  <text x="655" y="262" text-anchor="middle" fill="#c4b5fd" font-size="10">Node B</text>
+  <text x="765" y="262" text-anchor="middle" fill="#a8a29e" font-size="10">Node C</text>
+  <rect x="520" y="400" width="200" height="28" rx="6" fill="rgba(0,0,0,0.4)" stroke="#3f3f46"/>
+  <text x="620" y="418" text-anchor="middle" fill="#a78bfa" font-size="11">Vizzy � voice ready</text>
+  <text x="480" y="510" fill="#52525b" font-family="system-ui,sans-serif" font-size="13">Vizzy overlay on a dense page  diagram + voice controls</text>
+</svg>

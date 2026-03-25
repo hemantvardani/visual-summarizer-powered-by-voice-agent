@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visual Summary</title>
+  <link rel="stylesheet" href="src/popup/popup.css" />
+</head>
+<body>
+  <div class="popup-container">
+    <header class="popup-header">
+      <h1>Visual Summary</h1>
+    </header>
+
+    <div id="main-view" class="view active">
+      <button id="summarize-btn" class="btn-primary">
+        <span class="btn-icon">✦</span>
+        Summarize This Page
+      </button>
+      <p id="status-text" class="status-text"></p>
+      <button id="settings-toggle" class="btn-link">Settings</button>
+      <button id="dump-logs-btn" class="btn-link">Copy Debug Logs</button>
+      <p id="log-status" class="status-text"></p>
+    </div>
+
+    <div id="settings-view" class="view">
+      <h2>API Keys</h2>
+      <label class="input-group">
+        <span>Anthropic API Key</span>
+        <input type="password" id="anthropic-key" placeholder="sk-ant-..." />
+      </label>
+      <label class="input-group">
+        <span>OpenAI API Key</span>
+        <input type="password" id="openai-key" placeholder="sk-..." />
+      </label>
+      <label class="input-group">
+        <span>Firecrawl API Key</span>
+        <input type="password" id="firecrawl-key" placeholder="fc-..." />
+      </label>
+      <label class="input-group">
+        <span>ElevenLabs Agent ID (for voice assistant)</span>
+        <input type="password" id="elevenlabs-agent-id" placeholder="agent_..." />
+      </label>
+      <div class="btn-row">
+        <button id="save-keys" class="btn-primary">Save</button>
+        <button id="back-btn" class="btn-link">Back</button>
+      </div>
+      <p id="save-status" class="status-text"></p>
+    </div>
+  </div>
+
+  <script type="module" src="src/popup/popup.js"></script>
+</body>
+</html>
