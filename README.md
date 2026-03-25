@@ -5,7 +5,7 @@
 Vizzy is a Chrome extension that summarizes web pages as expandable flowcharts — and lets you explore them with your voice.
 
 ## Demo
-
+https://drive.google.com/file/d/1yNdatlnzwA-CFBCBnax0FKTkkkN1VKbW/view?usp=sharing
 
 ## What it does
 
